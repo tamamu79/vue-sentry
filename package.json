@@ -1,0 +1,8 @@
+{
+  "name": "vue-sentry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tamamu79/vue-sentry.git",
+  "author": "tamamu <masa.tmr79@gmail.com>",
+  "license": "MIT"
+}
