@@ -9,7 +9,11 @@
     "dev": "npx webpack && npx webpack-dev-server --open",
     "type-check": "npx tsc -p . --noEmit"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@sentry/browser": "^5.15.4",
+    "@sentry/integrations": "^5.15.4",
+    "dotenv-webpack": "^1.7.0"
+  },
   "devDependencies": {
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
