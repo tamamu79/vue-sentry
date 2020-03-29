@@ -4,5 +4,20 @@
   "main": "index.js",
   "repository": "git@github.com:tamamu79/vue-sentry.git",
   "author": "tamamu <masa.tmr79@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx webpack && npx webpack-dev-server --open",
+    "type-check": "npx tsc -p . --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
