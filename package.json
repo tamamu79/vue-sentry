@@ -10,6 +10,8 @@
     "type-check": "npx tsc -p . --noEmit"
   },
   "dependencies": {
+    "@sentry/browser": "^5.15.4",
+    "@sentry/integrations": "^5.15.4",
     "dotenv-webpack": "^1.7.0"
   },
   "devDependencies": {
