@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    Hello uchuujinn
+    {{ test }}
   </div>
 </template>
 
@@ -10,6 +10,11 @@ export default Vue.extend({
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  computed: {
+    test () {
+      return process.env.TEST
+    }
   }
 })
 </script>
